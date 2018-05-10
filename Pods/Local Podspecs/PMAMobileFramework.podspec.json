@@ -1,0 +1,19 @@
+{
+  "name": "PMAMobileFramework",
+  "version": "1.0",
+  "summary": "A collection of utilities which we found to be repeated across multiple museum-related apps",
+  "homepage": "https://github.com/philamuseum/mobileFramework",
+  "authors": {
+    "Peter Alt": "peter.alt@philamuseum.org"
+  },
+  "source": {
+    "git": "git@github.com:philamuseum/mobileFramework.git"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "ios": {
+    "source_files": "mobileFramework/**/*.swift"
+  }
+}

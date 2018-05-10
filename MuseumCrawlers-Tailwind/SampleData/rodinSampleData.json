@@ -1,0 +1,47 @@
+{
+  "objects": [
+    {
+      "object": {
+        "id": "96",
+        "path": "/rodin/content/adam",
+        "title": "Adam",
+        "onDisplay": "1",
+        "location": "67",
+        "tours": "",
+        "artist": "Auguste Rodin (French, 1840–1917)",
+        "date": "Modeled in clay 1880–81; cast in bronze 1925",
+        "dimensions": "6 feet 3 1/2 inches, 29 1/2 × 29 1/2 inches (191.8 × 74.9 × 74.9 cm)",
+        "creditLine": "Bequest of Jules E. Mastbaum",
+        "thumbnail": {
+          "src": "http://org.philamuseum.mobileframeworktests.s3.amazonaws.com/thumbnail.jpg",
+          "alt": ""
+        },
+        "images_header": [
+          {
+            "src": "http://org.philamuseum.mobileframeworktests.s3.amazonaws.com/header.jpg",
+            "alt": ""
+          }
+        ],
+        "images_thumbnail": [
+          {
+            "src": "http://org.philamuseum.mobileframeworktests.s3.amazonaws.com/thumbnail.jpg",
+            "alt": ""
+          }
+        ],
+        "full": [
+          {
+            "src": "http://org.philamuseum.mobileframeworktests.s3.amazonaws.com/full.jpg",
+            "alt": ""
+          }
+        ],
+        "audio": null,
+        "video": null,
+        "text": null,
+        "content_updated": "01/29/2017 - 13:04",
+        "accession_number": "F1929-7-125",
+        "alt_titles": null,
+        "title_french": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A44B77320A1346E006CAB67 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A44B77220A1346E006CAB67 /* RootPageViewController.swift */; };
+		6A62F1D120A3B45E00CD9FB3 /* RecommendDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62F1D020A3B45E00CD9FB3 /* RecommendDataModel.swift */; };
+		6A62F1D320A3BB1D00CD9FB3 /* ActivityDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62F1D220A3BB1D00CD9FB3 /* ActivityDataModel.swift */; };
+		6A7BF654209FAFD4008B8E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF653209FAFD4008B8E03 /* AppDelegate.swift */; };
+		6A7BF656209FAFD4008B8E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF655209FAFD4008B8E03 /* ViewController.swift */; };
+		6A7BF659209FAFD4008B8E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF657209FAFD4008B8E03 /* Main.storyboard */; };
+		6A7BF65B209FAFD7008B8E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF65A209FAFD7008B8E03 /* Assets.xcassets */; };
+		6A7BF65E209FAFD7008B8E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF65C209FAFD7008B8E03 /* LaunchScreen.storyboard */; };
+		6A7BF666209FB581008B8E03 /* SortingHatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF665209FB581008B8E03 /* SortingHatViewController.swift */; };
+		6A7BF668209FB59C008B8E03 /* SortingHatResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF667209FB59C008B8E03 /* SortingHatResultViewController.swift */; };
+		6A7BF675209FBA8B008B8E03 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF669209FBA89008B8E03 /* TitilliumWeb-Black.ttf */; };
+		6A7BF676209FBA8B008B8E03 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF66A209FBA89008B8E03 /* TitilliumWeb-SemiBold.ttf */; };
+		6A7BF677209FBA8B008B8E03 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF66B209FBA8A008B8E03 /* OFL.txt */; };
+		6A7BF678209FBA8B008B8E03 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF66C209FBA8A008B8E03 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		6A7BF679209FBA8B008B8E03 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF66D209FBA8A008B8E03 /* TitilliumWeb-Regular.ttf */; };
+		6A7BF67A209FBA8B008B8E03 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF66E209FBA8A008B8E03 /* TitilliumWeb-Bold.ttf */; };
+		6A7BF67B209FBA8B008B8E03 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF66F209FBA8A008B8E03 /* TitilliumWeb-BoldItalic.ttf */; };
+		6A7BF67C209FBA8B008B8E03 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF670209FBA8A008B8E03 /* TitilliumWeb-LightItalic.ttf */; };
+		6A7BF67D209FBA8B008B8E03 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF671209FBA8A008B8E03 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		6A7BF67E209FBA8B008B8E03 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF672209FBA8A008B8E03 /* TitilliumWeb-ExtraLight.ttf */; };
+		6A7BF67F209FBA8B008B8E03 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF673209FBA8B008B8E03 /* TitilliumWeb-Italic.ttf */; };
+		6A7BF680209FBA8B008B8E03 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BF674209FBA8B008B8E03 /* TitilliumWeb-Light.ttf */; };
+		6A7BF682209FCA72008B8E03 /* WayfindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF681209FCA72008B8E03 /* WayfindingViewController.swift */; };
+		6A7BF684209FCD61008B8E03 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF683209FCD61008B8E03 /* GalleryViewController.swift */; };
+		6A7BF686209FDC8C008B8E03 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF685209FDC8C008B8E03 /* RecommendViewController.swift */; };
+		6A7BF688209FDCAA008B8E03 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF687209FDCAA008B8E03 /* ActivityViewController.swift */; };
+		6A7BF68A209FE620008B8E03 /* ReasoningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BF689209FE620008B8E03 /* ReasoningViewController.swift */; };
+		E42B07D05C1BB03F4CE53CD4 /* Pods_MuseumCrawlers_Tailwind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DF369ABA4D4A7BB18A38D1 /* Pods_MuseumCrawlers_Tailwind.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D495B9DB42B968DE3F593D8 /* Pods-MuseumCrawlers-Tailwind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseumCrawlers-Tailwind.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseumCrawlers-Tailwind/Pods-MuseumCrawlers-Tailwind.release.xcconfig"; sourceTree = "<group>"; };
+		318B5ED6F1AD293521CD1435 /* Pods-MuseumCrawlers-Tailwind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseumCrawlers-Tailwind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseumCrawlers-Tailwind/Pods-MuseumCrawlers-Tailwind.debug.xcconfig"; sourceTree = "<group>"; };
+		6A44B77220A1346E006CAB67 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		6A62F1D020A3B45E00CD9FB3 /* RecommendDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendDataModel.swift; sourceTree = "<group>"; };
+		6A62F1D220A3BB1D00CD9FB3 /* ActivityDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataModel.swift; sourceTree = "<group>"; };
+		6A7BF650209FAFD4008B8E03 /* MuseumCrawlers-Tailwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MuseumCrawlers-Tailwind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7BF653209FAFD4008B8E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A7BF655209FAFD4008B8E03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A7BF658209FAFD4008B8E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A7BF65A209FAFD7008B8E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A7BF65D209FAFD7008B8E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A7BF65F209FAFD7008B8E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7BF665209FB581008B8E03 /* SortingHatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingHatViewController.swift; sourceTree = "<group>"; };
+		6A7BF667209FB59C008B8E03 /* SortingHatResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingHatResultViewController.swift; sourceTree = "<group>"; };
+		6A7BF669209FBA89008B8E03 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		6A7BF66A209FBA89008B8E03 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		6A7BF66B209FBA8A008B8E03 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		6A7BF66C209FBA8A008B8E03 /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		6A7BF66D209FBA8A008B8E03 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		6A7BF66E209FBA8A008B8E03 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		6A7BF66F209FBA8A008B8E03 /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6A7BF670209FBA8A008B8E03 /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		6A7BF671209FBA8A008B8E03 /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6A7BF672209FBA8A008B8E03 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6A7BF673209FBA8B008B8E03 /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		6A7BF674209FBA8B008B8E03 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		6A7BF681209FCA72008B8E03 /* WayfindingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayfindingViewController.swift; sourceTree = "<group>"; };
+		6A7BF683209FCD61008B8E03 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		6A7BF685209FDC8C008B8E03 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		6A7BF687209FDCAA008B8E03 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		6A7BF689209FE620008B8E03 /* ReasoningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasoningViewController.swift; sourceTree = "<group>"; };
+		72DF369ABA4D4A7BB18A38D1 /* Pods_MuseumCrawlers_Tailwind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseumCrawlers_Tailwind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A7BF64D209FAFD4008B8E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42B07D05C1BB03F4CE53CD4 /* Pods_MuseumCrawlers_Tailwind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637509C1032872F5CB586877 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				318B5ED6F1AD293521CD1435 /* Pods-MuseumCrawlers-Tailwind.debug.xcconfig */,
+				1D495B9DB42B968DE3F593D8 /* Pods-MuseumCrawlers-Tailwind.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A62F1CF20A3B44A00CD9FB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A62F1D020A3B45E00CD9FB3 /* RecommendDataModel.swift */,
+				6A62F1D220A3BB1D00CD9FB3 /* ActivityDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A7BF647209FAFD4008B8E03 = {
+			isa = PBXGroup;
+			children = (
+				6A7BF652209FAFD4008B8E03 /* MuseumCrawlers-Tailwind */,
+				6A7BF651209FAFD4008B8E03 /* Products */,
+				637509C1032872F5CB586877 /* Pods */,
+				EE21AE1A54F66B29B0575FCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A7BF651209FAFD4008B8E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A7BF650209FAFD4008B8E03 /* MuseumCrawlers-Tailwind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A7BF652209FAFD4008B8E03 /* MuseumCrawlers-Tailwind */ = {
+			isa = PBXGroup;
+			children = (
+				6A62F1CF20A3B44A00CD9FB3 /* Model */,
+				6A7BF653209FAFD4008B8E03 /* AppDelegate.swift */,
+				6A7BF655209FAFD4008B8E03 /* ViewController.swift */,
+				6A7BF665209FB581008B8E03 /* SortingHatViewController.swift */,
+				6A7BF667209FB59C008B8E03 /* SortingHatResultViewController.swift */,
+				6A7BF657209FAFD4008B8E03 /* Main.storyboard */,
+				6A44B77220A1346E006CAB67 /* RootPageViewController.swift */,
+				6A7BF689209FE620008B8E03 /* ReasoningViewController.swift */,
+				6A7BF685209FDC8C008B8E03 /* RecommendViewController.swift */,
+				6A7BF687209FDCAA008B8E03 /* ActivityViewController.swift */,
+				6A7BF683209FCD61008B8E03 /* GalleryViewController.swift */,
+				6A7BF681209FCA72008B8E03 /* WayfindingViewController.swift */,
+				6A7BF65A209FAFD7008B8E03 /* Assets.xcassets */,
+				6A7BF66B209FBA8A008B8E03 /* OFL.txt */,
+				6A7BF669209FBA89008B8E03 /* TitilliumWeb-Black.ttf */,
+				6A7BF66E209FBA8A008B8E03 /* TitilliumWeb-Bold.ttf */,
+				6A7BF66F209FBA8A008B8E03 /* TitilliumWeb-BoldItalic.ttf */,
+				6A7BF672209FBA8A008B8E03 /* TitilliumWeb-ExtraLight.ttf */,
+				6A7BF66C209FBA8A008B8E03 /* TitilliumWeb-ExtraLightItalic.ttf */,
+				6A7BF673209FBA8B008B8E03 /* TitilliumWeb-Italic.ttf */,
+				6A7BF674209FBA8B008B8E03 /* TitilliumWeb-Light.ttf */,
+				6A7BF670209FBA8A008B8E03 /* TitilliumWeb-LightItalic.ttf */,
+				6A7BF66D209FBA8A008B8E03 /* TitilliumWeb-Regular.ttf */,
+				6A7BF66A209FBA89008B8E03 /* TitilliumWeb-SemiBold.ttf */,
+				6A7BF671209FBA8A008B8E03 /* TitilliumWeb-SemiBoldItalic.ttf */,
+				6A7BF65C209FAFD7008B8E03 /* LaunchScreen.storyboard */,
+				6A7BF65F209FAFD7008B8E03 /* Info.plist */,
+			);
+			path = "MuseumCrawlers-Tailwind";
+			sourceTree = "<group>";
+		};
+		EE21AE1A54F66B29B0575FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72DF369ABA4D4A7BB18A38D1 /* Pods_MuseumCrawlers_Tailwind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A7BF64F209FAFD4008B8E03 /* MuseumCrawlers-Tailwind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7BF662209FAFD7008B8E03 /* Build configuration list for PBXNativeTarget "MuseumCrawlers-Tailwind" */;
+			buildPhases = (
+				4081D61C7962A7E69739A101 /* [CP] Check Pods Manifest.lock */,
+				6A7BF64C209FAFD4008B8E03 /* Sources */,
+				6A7BF64D209FAFD4008B8E03 /* Frameworks */,
+				6A7BF64E209FAFD4008B8E03 /* Resources */,
+				3EDF014728A1E41C71A05C2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MuseumCrawlers-Tailwind";
+			productName = "MuseumCrawlers-Tailwind";
+			productReference = 6A7BF650209FAFD4008B8E03 /* MuseumCrawlers-Tailwind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A7BF648209FAFD4008B8E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Brad Derstine";
+				TargetAttributes = {
+					6A7BF64F209FAFD4008B8E03 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 6A7BF64B209FAFD4008B8E03 /* Build configuration list for PBXProject "MuseumCrawlers-Tailwind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A7BF647209FAFD4008B8E03;
+			productRefGroup = 6A7BF651209FAFD4008B8E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A7BF64F209FAFD4008B8E03 /* MuseumCrawlers-Tailwind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A7BF64E209FAFD4008B8E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7BF67D209FBA8B008B8E03 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				6A7BF67A209FBA8B008B8E03 /* TitilliumWeb-Bold.ttf in Resources */,
+				6A7BF677209FBA8B008B8E03 /* OFL.txt in Resources */,
+				6A7BF680209FBA8B008B8E03 /* TitilliumWeb-Light.ttf in Resources */,
+				6A7BF67B209FBA8B008B8E03 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				6A7BF65E209FAFD7008B8E03 /* LaunchScreen.storyboard in Resources */,
+				6A7BF67F209FBA8B008B8E03 /* TitilliumWeb-Italic.ttf in Resources */,
+				6A7BF65B209FAFD7008B8E03 /* Assets.xcassets in Resources */,
+				6A7BF67C209FBA8B008B8E03 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				6A7BF659209FAFD4008B8E03 /* Main.storyboard in Resources */,
+				6A7BF676209FBA8B008B8E03 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				6A7BF675209FBA8B008B8E03 /* TitilliumWeb-Black.ttf in Resources */,
+				6A7BF679209FBA8B008B8E03 /* TitilliumWeb-Regular.ttf in Resources */,
+				6A7BF67E209FBA8B008B8E03 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				6A7BF678209FBA8B008B8E03 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EDF014728A1E41C71A05C2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MuseumCrawlers-Tailwind/Pods-MuseumCrawlers-Tailwind-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAMobileFramework/PMAMobileFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAMobileFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseumCrawlers-Tailwind/Pods-MuseumCrawlers-Tailwind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4081D61C7962A7E69739A101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuseumCrawlers-Tailwind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A7BF64C209FAFD4008B8E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A62F1D120A3B45E00CD9FB3 /* RecommendDataModel.swift in Sources */,
+				6A7BF68A209FE620008B8E03 /* ReasoningViewController.swift in Sources */,
+				6A62F1D320A3BB1D00CD9FB3 /* ActivityDataModel.swift in Sources */,
+				6A7BF668209FB59C008B8E03 /* SortingHatResultViewController.swift in Sources */,
+				6A7BF682209FCA72008B8E03 /* WayfindingViewController.swift in Sources */,
+				6A7BF686209FDC8C008B8E03 /* RecommendViewController.swift in Sources */,
+				6A7BF688209FDCAA008B8E03 /* ActivityViewController.swift in Sources */,
+				6A7BF656209FAFD4008B8E03 /* ViewController.swift in Sources */,
+				6A7BF684209FCD61008B8E03 /* GalleryViewController.swift in Sources */,
+				6A44B77320A1346E006CAB67 /* RootPageViewController.swift in Sources */,
+				6A7BF666209FB581008B8E03 /* SortingHatViewController.swift in Sources */,
+				6A7BF654209FAFD4008B8E03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A7BF657209FAFD4008B8E03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7BF658209FAFD4008B8E03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A7BF65C209FAFD7008B8E03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7BF65D209FAFD7008B8E03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A7BF660209FAFD7008B8E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A7BF661209FAFD7008B8E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A7BF663209FAFD7008B8E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318B5ED6F1AD293521CD1435 /* Pods-MuseumCrawlers-Tailwind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGWW7Y4H93;
+				INFOPLIST_FILE = "MuseumCrawlers-Tailwind/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizzartech.MuseumCrawlers-Tailwind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A7BF664209FAFD7008B8E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D495B9DB42B968DE3F593D8 /* Pods-MuseumCrawlers-Tailwind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGWW7Y4H93;
+				INFOPLIST_FILE = "MuseumCrawlers-Tailwind/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizzartech.MuseumCrawlers-Tailwind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A7BF64B209FAFD4008B8E03 /* Build configuration list for PBXProject "MuseumCrawlers-Tailwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7BF660209FAFD7008B8E03 /* Debug */,
+				6A7BF661209FAFD7008B8E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7BF662209FAFD7008B8E03 /* Build configuration list for PBXNativeTarget "MuseumCrawlers-Tailwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7BF663209FAFD7008B8E03 /* Debug */,
+				6A7BF664209FAFD7008B8E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A7BF648209FAFD4008B8E03 /* Project object */;
+}

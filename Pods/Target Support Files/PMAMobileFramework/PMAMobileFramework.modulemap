@@ -1,0 +1,6 @@
+framework module PMAMobileFramework {
+  umbrella header "PMAMobileFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
